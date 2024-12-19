@@ -27,7 +27,7 @@ jobs:
     displayName: 'Deploy to Azure App Service'
     inputs:
       ConnectionType: 'AzureRM'
-      azureSubscription: 'Azure subscription 1'  # Replace with the name of your Azure service connection
+      azureSubscription: 'Cse415FinalProjectConnection'  # Replace with the name of your Azure service connection
       appType: 'webApp'
       WebAppName: 'cse415FinalProjectWebApp'  # Replace with the name of your Azure Web App
       packageForLinux: '$(Build.ArtifactStagingDirectory)/drop/**/*.zip'
